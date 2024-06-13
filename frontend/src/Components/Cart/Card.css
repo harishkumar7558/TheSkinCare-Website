@@ -1,0 +1,28 @@
+.cards{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden !important;
+   margin-bottom: 2%;
+    overflow: hidden !important;
+   
+}
+.scard{
+    overflow: hidden  !important;
+    background-color: rgb(203, 190, 214);
+    width: 100%;
+    border: 2px solid rgb(207, 86, 207);
+}
+
+.scard img{
+    width: 100%;
+    overflow: hidden !important;
+    transform: translate(0deg,0deg,0deg,0deg);
+    transition: width 2s;
+}
+.scard img:hover{
+    width: 110%;
+    transform: translate(50deg,50deg,50deg,50deg);
+    overflow: hidden !important;
+    
+}

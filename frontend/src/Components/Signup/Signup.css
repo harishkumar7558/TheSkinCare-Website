@@ -1,0 +1,52 @@
+.btnX{
+    margin-left:88%;
+  }
+  .sign{
+    background-image: linear-gradient(rgb(92, 188, 201),rgb(63, 189, 196));
+    margin-left: 10%;
+  }
+  @media screen and (max-width:1000px) {
+    .btnX{
+      margin-left:80%;
+    }
+    .sign{
+      background-image: linear-gradient(rgb(92, 188, 201),rgb(63, 189, 196));
+      margin-left: 5%;
+      width: 90% !important;
+    
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .btnX{
+      margin-left:80%;
+    }
+    .sign{
+      background-image: linear-gradient(rgb(92, 188, 201),rgb(63, 189, 196));
+      margin-left: 5%;
+      width: 90% !important; 
+    }
+    .signimg{
+      width: 50%;
+    }
+    
+  }
+
+  @media screen and (max-width:400px) {
+    .btnX{
+      margin-left:70%;
+    }
+    .sign{
+      
+      background-image: linear-gradient(rgb(92, 188, 201),rgb(63, 189, 196));
+      margin-left: 2%;
+      width: 95% !important; 
+      margin-top: 5%;
+
+    }
+    .signimg{
+      width: 50%;
+    }
+    
+    
+  }

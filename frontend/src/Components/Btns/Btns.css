@@ -1,0 +1,38 @@
+.btns1{
+    
+    
+    position: fixed !important;
+    top: 90% !important;
+}
+.btns2{
+    
+    
+    position: fixed !important;
+    top: 90% !important;
+    left: 90%;
+}
+
+@media screen and (max-width:1000px) {
+    .btns2{
+      left:83%;
+    }
+  }
+
+@media screen and (max-width:700px) {
+    .btns2{
+      left:77%;
+    }
+  }
+
+
+@media screen and (max-width:500px) {
+    .btns2{
+      left:70%;
+    }
+  }
+
+@media screen and (max-width:400px) {
+    .btns2{
+      left:63%;
+    }
+  }

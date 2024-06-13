@@ -1,0 +1,14 @@
+@media screen and (max-width:1100px) {
+    .df{
+        flex-direction: column !important;
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .hide{
+        display: none !important;
+    }
+}
+.menu{
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 128), rgb(0, 183, 255));
+}

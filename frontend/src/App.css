@@ -1,0 +1,76 @@
+.stic{
+  position: sticky;
+  z-index: 2;
+  top: .01%;
+  width: 100%;
+}
+*{
+ 
+
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
+
+}
+/* .tops{
+  background-image: linear-gradient(rgb(183, 0, 255),rgb(255, 0, 200),rgb(214, 18, 171)) !important;
+} */
+.best {
+  width:30%  !important;
+  
+  transition: width 2s !important;
+}
+
+.best:hover {
+  width: 31% !important;
+  
+}
+.feature {
+  width:90%  !important;
+  
+  transition: width 2s !important;
+}
+
+.feature:hover {
+  width: 91% !important;
+  
+}
+.trend {
+  width:30%  !important;
+  
+  transition: width 2s !important;
+}
+
+.trend:hover {
+  width: 31% !important;
+  
+}
+.blog {
+  width:90%  !important;
+  
+  transition: width 2s !important;
+}
+
+.blog:hover {
+  width: 91% !important;
+  
+}
+h3{
+  color: rgb(217, 255, 0);
+  text-shadow: 0 0 8px #374104, 0 0 10px #4d7a05;
+  transition: color 0.6s !important;
+
+  
+}
+h3:hover{
+  color: rgb(76, 7, 94);
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+body{
+  background-color: wheat !important;
+  border: 2px solid;
+  background-image: linear-gradient(rgb(0, 252, 255)20%,rgb(179, 255, 0)20%,rgb(0, 255, 255)20%) !important;
+
+}
